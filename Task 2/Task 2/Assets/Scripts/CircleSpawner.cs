@@ -38,7 +38,7 @@ public class CircleSpawner : MonoBehaviour
             }
 
             Vector3 worldPosition = mainCam.ViewportToWorldPoint(viewportValue);
-            worldPosition.z = 0f;
+            worldPosition.z = 0.1f;
             
             bool isOverlapping = CheckOverlap(worldPosition);
 
